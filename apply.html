@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+
+    <style>
+        /* Apply background color to the entire body */
+        body {
+            background-color: rgb(223, 141, 223);
+            margin: 0; /* Reset default margin */
+            padding: 10px; /* Add padding to create space */
+            margin-bottom: 50px;
+            margin-top: -40px;
+        }
+
+        /* Style for the form container */
+        .form-container {
+            background-color: rgb(167, 49, 167);
+            padding: 30px;
+            padding-top: 40px;
+            border-radius: 50px; /* Add rounded corners */
+            width:500px; /* Set width of the container */
+            margin: 0 auto; /* Center the container horizontally */
+            color: white;
+        }
+
+       .form-input table {
+    margin-bottom: 20px; /* Add space between table inputs */
+}
+
+.form-input td {
+    padding: 8px; /* Add padding to the table cells */
+}
+
+.form-input input[type="text"],
+.form-input input[type="tel"],
+.form-input input[type="email"] {
+    padding: 5px; /* Add padding to the input */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+        /* Style for the submit button */
+        .submit {
+            background-color: #ff00ff; /* Customize button color */
+            color: white; /* Text color */
+            padding: 10px 20px; /* Add padding to the button */
+            border: none; /* Remove border */
+            border-radius: 10px; /* Add rounded corners */
+            cursor: pointer; /* Add pointer cursor on hover */
+
+        }
+
+        /* Style for the submit button on hover */
+        .submit:hover {
+            background-color: #cc00cc; /* Change button color on hover */
+        }
+        .back{
+            float: right;
+            margin-right: -10px;
+            background-color: #ff00ff;
+            color: white;
+            font-weight: bolder;
+            font-size: large;
+            padding: 20px;
+            transition: background-color 0.5s;
+        }
+        a{
+            text-decoration: none;
+            
+        }
+        .back:hover{
+            background-color: #cc00cc;
+            color: white;
+            font-weight: bolder;
+        }
+
+    </style>
+</head>
+<body>
+<br><br><br><br><br>
+    <div class="form-container">
+        <center>
+        <h1>Recruitment Details</h1><br><br><br>
+        <form action="index1.php" method="post" class="form-input">
+            <table>
+         <tr><td>  <label>First Name:</label></td> <td><input type="text" id="firstname" name="firstname" placeholder="Enter Your First-Name" size="40"></td>
+            <tr><td> <label>Last Name:</label><td><input type="text" id="lastname" name="lastname" placeholder="Enter Your Last-Name" size="40"></td>
+                <tr><td><label>Email-Id:</label><td><input type="email" id="email" name="email" placeholder="Enter Your Email-id" size="40"></td>
+                    <tr><td><label> Phone-Number:</label><td> <input type="tel" id="phone" name="phone" placeholder="Enter Your Phone Number" size="40"></td>
+                        <tr><td><label>Username:</label> <td><input type="text" id="username" name="username" placeholder="Enter Your Username" size="40"></td></tr></table><br><br><br>
+            <input type="submit" class="submit" onclick= "return check()" >
+        </center></form>
+    </div>
+    <a href="index.html" class="back"><div>Back</div></a>
+
+</body>
+</html>

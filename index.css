@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    font-family: sans-serif;
+}
+.hom{
+    background-color: rgb(75, 14, 60);
+    padding: 20px;
+}
+.hom h1{
+    color: white;
+}
+.link{
+    background-color: rgb(168, 58, 144);
+    padding: 20px;
+    width: 55px;
+    color: black    ;
+    transition: background-color 0.8s;
+    font-size: larger;
+    font-weight: bolder;
+}
+.a{
+    text-decoration: none;
+}
+.link:hover{
+    background-color: rgb(75, 14, 60);
+    color: white;
+    font-weight: bolder;
+}
+.lin{
+    background-color: rgb(168, 58, 144);
+}
+.submit{
+    font-size: large;
+}
+input[type="text"]::placeholder{
+    text-align: center;
+}
+input[type="tel"]::placeholder{
+    text-align: center;
+}
+input[type="email"]::placeholder{
+    text-align: center;
+}
+.para{
+    background-color: rgb(216, 23, 158);
+    padding: 40px;
+   width: 30%;
+   margin-left: 8%;
+   color: white;
+   font-size: large;
+   border-radius: 20px;
+   transition: background-color 0.8s;
+}
+.para p{
+    line-height: 1.8;
+}
+.para h3{
+    font-size: larger;
+}
+.para:hover{
+    background-color: rgb(138, 47, 138);
+}
+.par{
+    background-color: rgb(216, 23, 158);
+    padding: 40px;
+    float: right;
+    color: white;
+    font-size: large;
+    border-radius: 20px;
+    width: 30%;
+    margin-right: 8%;
+   margin-top: -35.2%;
+   transition: background-color 0.8s;
+
+}
+.par p{
+    line-height: 1.7;
+}
+.par h3{
+    font-size: larger;
+}
+.par:hover{
+    background-color: rgb(138, 47, 138);
+}

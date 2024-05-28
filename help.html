@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            font-family: sans-serif;
+        }
+        body{
+            background-color: rgb(171, 171, 238);
+        }
+        .helpp{
+            margin:0 auto;
+            background-color: rgb(79, 79, 146);
+            width: 500px;
+            padding: 30px;
+            padding-top: 40px;
+            color: white;
+            border-radius: 20px;
+            transition: background-color 3s;
+        }
+        .helpp:hover{
+            background-color: rgb(151, 65, 133);
+        }
+        .form-input table{
+            margin-bottom: 30px;
+        }
+        .form-input td{
+            padding: 8px;
+        }
+  
+        .form-input input[type="text"],
+        .form-input input[type="tel"],
+        .form-input input[type="email"]{
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        .submit{
+            background-color: rgb(50, 50, 85);
+            padding: 10px;
+            width: 20%;
+            border-radius: 15px;
+            cursor: pointer;
+            color: white;
+            font-size: large;
+            transition:background-color 2s;
+        }
+        .submit:hover{
+            background-color:rgb(171, 171, 238) ;
+            color: black;
+        }
+        .backk{
+            background-color: rgb(151, 65, 133);
+            color: white;
+            font-size:larger;
+            padding: 18px;
+            width: 50px;
+            float: right;
+            margin-top: 21px;
+        }
+        .backk:hover{
+            background-color: rgb(87, 27, 128);
+            color: white;
+            font-size:larger;
+            padding: 18px;
+            width: 50px;
+            float: right;
+            margin-top: 21px;
+        }
+    </style>
+</head>
+<body><br><br><br><br><br><br>
+    <div class="helpp">
+        <center><h1>Help Page</h1><br><br>
+        <form action="form.php" method="post" class="help">
+       <table class="form-input">
+<tr>
+ <td>Full Name:</td>
+ <td><input type="text" placeholder="Enter your Name" name="name" id="name"></td>
+</tr>
+<tr>
+    <td>Email-id:</td>
+    <td><input type="email" placeholder="Enter your Email-id" name="email" id="email"></td>
+   </tr>
+   <tr>
+    <td>Phone Number:</td>
+    <td><input type="tel" placeholder="Enter your Phone Number" name="phone" id="phone"></td>
+   </tr>
+   <tr>
+    <td>Comments:</td>
+    <td><input type="text" placeholder="Enter your Comments" name="com" id="com"></td>
+   </tr>
+  </table><br><br>
+  <input type="submit" class="submit">
+</center></form>
+    </div>
+
+    <a href="./index.html" class="back" style="text-decoration: none;"><div class="backk">Back</div></a>
+</body>
+</html>
